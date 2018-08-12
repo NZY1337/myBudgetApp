@@ -1,0 +1,57 @@
+body {
+    
+    font-family: Open Sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    padding-top:3rem;
+}
+
+.bg-image {
+    background-image: url(../images/w25.jpg);
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    height: 100%; 
+}
+
+.your-income {
+    border:2px solid lightblue; 
+}
+
+.insert-your-thing {
+    .add_type, .price-thing, .your-thing,  {
+        height:44px;
+        margin-right:1rem;
+    }
+    .add-button {
+        border:1px solid gray;
+        width:25%;
+        height:44px; 
+        background:none;
+    }
+}
+
+.delete {
+    background:black;
+    color:white;
+    padding:.5rem 2rem;
+    cursor:pointer;
+    border:1px solid black;
+    transition:.3s all;
+    &:hover {
+        background:white;
+        border:1px solid black;
+        padding:.5rem 2rem;
+        color:black;
+    }
+}
+
